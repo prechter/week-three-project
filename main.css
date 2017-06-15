@@ -31,6 +31,9 @@ td{
   width:24vw;
   border: none;
   background-color: #61B34F;
+  text-align: right;
+  font-size: 5vw;
+  color: white;
 }
 
 .num, #clear{
@@ -43,12 +46,12 @@ td{
   width: 8vw;
 }
 
-.op{
+.op, #equals{
   background:none;
   border:none;
   font-size: 2.5vw;
   font-weight: lighter;
-  color: black;
+  color: #62676A;
   height: 8vw;
   width: 8vw;
 }
