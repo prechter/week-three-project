@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>Awesome Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <table class="calc">
+      <tr>
+        <td><input id="clear" type="reset" name="clear" value="AC"></td>
+        <td id="display-box" colspan=3><input id="display" type="text" name="display" value=""></td>
+      </tr>
+      <tr>
+        <td><input class="num" type="submit" name="button7" value="7" ></td>
+        <td><input class="num" type="submit" name="button8" value="8"></td>
+        <td><input class="num" type="submit" name="button9" value="9"></td>
+        <td class="operator"><input class="op" type="submit" name="divide" value="/"></td>
+      </tr>
+      <tr>
+        <td><input class="num" type="submit" name="button4" value="4"></td>
+        <td><input class="num" type="submit" name="button5" value="5"></td>
+        <td><input class="num" type="submit" name="button6" value="6"></td>
+        <td class="operator"><input class="op" type="submit" name="multiply" value="x"></td>
+      </tr>
+      <tr>
+        <td><input class="num" type="submit" name="button1" value="1"></td>
+        <td><input class="num" type="submit" name="button2" value="2"></td>
+        <td><input class="num" type="submit" name="button3" value="3"></td>
+        <td class="operator"><input class="op" type="submit" name="subtract" value="-"></td>
+      </tr>
+      <tr>
+        <td><input class="num" type="submit" name="button0" value="0"></td>
+        <td class="operator"><input class="op" type="submit" name="decimal" value="."></td>
+        <td class="operator"><input class="op" type="submit" name="equals" value="="></td>
+        <td class="operator"><input class="op" type="submit" name="add" value="+"></td>
+      </tr>
+    </table>
+    <script src ="main.js"></script>
+  </body>
+</html>
